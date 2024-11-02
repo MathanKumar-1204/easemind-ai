@@ -1,0 +1,153 @@
+.page-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: auto;
+    padding: 20px;
+    width: 80%;
+  }
+  
+  .sign-up-container {
+    width: 50%;
+    transform: translate(30px, 30px);
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3); 
+    border-radius: 10px;
+    border: 2px solid #28a745;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    position: relative;
+    box-shadow: 0px 0px 30px 10px rgba(72, 187, 255, 0.7); 
+    padding: 30px;
+  }
+  
+  .form-header {
+    position: absolute;
+    top: -12px; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent; 
+    padding: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+    z-index: 1;
+  }
+  
+  .sign-up-form {
+    display: flex;
+    flex-direction: column;
+    z-index: 0; 
+  }
+  
+  .sign-up-form label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #b0c4de; 
+}
+
+  
+  .sign-up-form input {
+    padding: 10px; 
+    font-size: 14px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%; 
+    box-sizing: border-box; 
+  }
+  
+  .sign-up-form button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 50%; 
+    align-self: center; 
+  }
+  
+  .sign-up-form button:hover {
+    background-color: #218838;
+  }
+  
+  .welcome-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f1f8f9;
+    border: 2px solid #28a745;
+    border-radius: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.welcome-container:hover {
+    transform: scale(2); 
+    box-shadow: 0px 0px 20px 15px rgba(72, 187, 255, 0.7); 
+}
+
+  
+  .welcome-container h3 {
+    margin-bottom: 10px;
+    color: #28a745;
+  }
+  
+  .welcome-container p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .image-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    perspective: 1000px; 
+    margin-left: 270px; 
+  }
+  
+  .image-container .flipper {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    transition: transform 1s ease; 
+    transform-style: preserve-3d; 
+    transform: rotateY(0deg); 
+  }
+  
+  .image-container.flipped .flipper {
+    transform: rotateY(180deg); 
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 10px rgba(72, 187, 255, 0.7);
+    backface-visibility: hidden;
+    position: absolute; 
+  }
+  
+  .image-container img.front {
+    z-index: 2; 
+    transform: rotateY(0deg); 
+  }
+  
+  .image-container img.back {
+    transform: rotateY(180deg); 
+  }
+  .sign-up-form select {
+    padding: 10px; 
+    font-size: 14px;
+    margin-bottom: 15px; 
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 100%; 
+    box-sizing: border-box;
+  }
+  

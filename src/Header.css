@@ -1,0 +1,73 @@
+/* Header.css */
+
+.header {
+    margin-top: 30%;
+    padding: 5px;
+    color: transparent ;
+    text-align: center;
+    background: linear-gradient(45deg, rgb(96, 0, 128), rgb(64, 0, 255));
+    background-clip: text;
+
+    animation: gradient 3s ease infinite;
+    border-radius: 8px;
+
+  }
+
+  .title{
+    color: black;
+  }
+
+  @keyframes gradient {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+  }
+  .welcome-message{
+    color: black;
+    font-size: x-large;
+    
+  }
+  .welcome-message h1 {
+    font-size: 2em;
+  }
+  
+  .feeling-status h2 {
+    margin-top: 20px;
+  }
+  
+  .graph{
+    height: 150px;
+  }
+  .mental-health-graph {
+    margin-top: 20px;
+  }
+  
+  .graph-placeholder {
+    padding: 20px;
+    border-radius: 5px;
+    height: 100px; /* Placeholder height */
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .test-reminder {
+    margin-top: 20px;
+  }
+  
+  .test-reminder button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .test-reminder button:hover {
+    background-color: #e60000;
+  }
+  

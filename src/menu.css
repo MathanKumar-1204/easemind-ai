@@ -1,0 +1,32 @@
+.menubar{
+    position: inherit;
+    width: 20%;
+}
+.main{
+    margin-left: 20%;
+    width: 80%;
+}
+
+li{
+    text-align: center  ;
+}
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;   
+    z-index: 7887;
+  }
+.content {
+position: relative;
+z-index: 1;
+color: white;
+text-align: center;
+padding: 20px;
+}
+
+.current{
+    font-size: xx-large;
+    color: white;
+}

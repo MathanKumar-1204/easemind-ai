@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+body{
+    background-color: transparent;
+}
+
+
+.menu{
+  width: 20%;
+  height: 100vh;
+  position:fixed;
+}
+.Main{
+  margin-left: 22%;
+  width: 80%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.article-item {
+  width: 30%;
+  height: 200px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f4f4f478;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: center;
+}
+
+.article-item h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.article-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+.article-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.welcome-message {
+  padding: 20px;
+  border-bottom: 2px solid #dee2e6;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.welcome-message h1 {
+  font-size: 2em;
+  margin: 0;
+}
+
+.welcome-message p {
+  font-size: 1.2em;
+  margin: 10px 0 0;
+}
+
+.homepage-content {
+  padding: 20px;
+}

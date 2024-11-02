@@ -1,0 +1,14 @@
+.video-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .video-container {
+    text-align: center;
+  }
+  
+  iframe {
+    border: none;
+  }
+  

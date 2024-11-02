@@ -1,0 +1,17 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  background-color: #0f0220;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; 
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .App {
+    height: auto; 
+  }
+}

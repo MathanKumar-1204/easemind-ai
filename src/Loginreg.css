@@ -1,0 +1,183 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: beige;
+    margin: 0; 
+    font-family:  'Montserrat', sans-serif ;
+}
+.logo{
+    height: 100%;
+    width: 45%;
+    padding-right: 5%;
+    text-align: center;
+    vertical-align: middle;
+    h1{
+        font-size: 600%;
+        color: black ;
+    }
+    p{
+        font-size: 150%;
+    }
+}
+
+.error{
+    text-align: center;
+    color:rgb(140, 23, 23);
+    
+}
+
+.creds{
+    padding-left: 5%;
+    width: 40%;
+    h1{
+        font-size: large;
+        text-align: center;
+    }
+    label{
+        font-size: large;
+    }
+}
+.login-container {
+    display: flex;
+    background-color:black;
+    height: 70%;
+    padding: 2% 3%;
+    color: white;
+    border-radius: 15px;    
+    width: 70%; /* Increased width for a rectangular shape */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 20px ;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 150%;
+    cursor: pointer;    
+    align-self: center;
+
+}           
+
+button:hover {
+    background-color: rgb(96, 185, 219);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; 
+    font-family:  'Montserrat', sans-serif ;
+}
+.logo{
+    height: 100%;
+    width: 45%;
+    padding-right: 5%;
+    text-align: center;
+    vertical-align: middle;
+    h1{
+        font-size: 600%;
+        color: white ;
+    }
+    p{
+        font-size: 150%;
+    }
+}
+
+.error{
+    text-align: center;
+    color:rgb(140, 23, 23);
+    
+}
+
+.creds{
+    padding-left: 5%;
+    width: 40%;
+    h1{
+        font-size: large;
+        text-align: center;
+    }
+    label{
+        font-size: large;
+    }
+}
+.login-container {
+    display: flex;
+    background-color:rgb(0, 0, 0);
+    height: 70%;
+    padding: 2% 3%;
+    border-radius: 15px;
+    box-shadow: 0 0 70px rgb(33, 33, 33);
+    width: 900px; /* Increased width for a rectangular shape */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 20px ;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 150%;
+    cursor: pointer;    
+    width: 40%;
+    align-self: center;
+
+}           
+
+button:hover {
+    background-color: rgb(96, 185, 219);
+}
