@@ -30,7 +30,7 @@ function ChatAppelement() {
 
   const processUserMessageToChatGPT = async (messages) => {
     try {
-      const response = await fetch("http://localhost:5000/get_answer", {
+      const response = await fetch("https://easemindpython.onrender.com/get_answer", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
